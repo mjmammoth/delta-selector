@@ -1,6 +1,5 @@
 'use client';
-import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Header } from "../components/header";
 import { Input } from "../components/input";
 import { Select } from "../components/select";
