@@ -13,9 +13,9 @@ export function Input({ setItems } : InputProps) {
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 mx-10">
       <div className="space-y-2">
-        <Label htmlFor="input">Input</Label>
+        <h3 className="text-lg font-medium">Input</h3>
         <Textarea className="h-24" id="input" placeholder="exampleItem" onChange={handleInputChange}/>
       </div>
     </div>

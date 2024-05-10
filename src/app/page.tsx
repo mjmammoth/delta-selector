@@ -13,16 +13,10 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="flex justify-center m-10">
-        <div className="mx-10">
-          <Input setItems={setItems}/>
-        </div>
-        <div>
-          <Select items={items} selectedItems={selectedItems} setSelectedItems={setSelectedItems}/>
-        </div>
-        <div className="mx-10">
-          <Output items={items} selectedItems={selectedItems}/>
-        </div>
+      <div className="flex justify-center m-10 flex-wrap">
+        <Input setItems={setItems}/>
+        <Select items={items} selectedItems={selectedItems} setSelectedItems={setSelectedItems}/>
+        <Output items={items} selectedItems={selectedItems}/>
       </div>
     </>
   );
