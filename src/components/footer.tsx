@@ -10,7 +10,7 @@ export function Footer() {
           <GithubIcon className="h-5 w-5" />
           <span>
             This project is
-            <Link className="font-medium underline underline-offset-4 hover:text-white mx-1" href="#" target="_blank">
+            <Link className="font-medium underline underline-offset-4 hover:text-white mx-1" href="https://github.com/mjmammoth/delta-selector" target="_blank">
               open source
             </Link>
           </span>

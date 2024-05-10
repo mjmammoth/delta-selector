@@ -8,7 +8,7 @@ import { Output } from "../components/output";
 import { Footer } from "../components/footer";
 
 export default function Home() {
-  const [items, setItems] = useState<string[]>(['exampleItem (One item per line)']);
+  const [items, setItems] = useState<string[]>(['First Item', 'Second Item']);
   const [selectedItems, setSelectedItems] = useState<string[]>([]);
 
   return (
