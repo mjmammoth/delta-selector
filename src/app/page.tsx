@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Header />
       <main className="flex flex-col grow items-center m-10">
-        <div className="flex flex-row justify-centergap-4 flex-wrap">
+        <div className="flex flex-row justify-center flex-wrap">
         <Input setItems={setItems}/>
         <Select items={items} selectedItems={selectedItems} setSelectedItems={setSelectedItems}/>
         <Output items={items} selectedItems={selectedItems}/>
