@@ -18,7 +18,7 @@ export function Select({ items, selectedItems, setSelectedItems } : SelectProps)
   }
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 m-4">
       <div className="flex items-center justify-between">
         <h3 className="text-lg font-medium">Select</h3>
         {/*

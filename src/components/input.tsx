@@ -13,10 +13,10 @@ export function Input({ setItems } : InputProps) {
   }
 
   return (
-    <div className="space-y-4 mx-10">
+    <div className="space-y-4 m-4">
       <div className="space-y-2">
         <h3 className="text-lg font-medium">Input</h3>
-        <Textarea className="h-24" id="input" placeholder="exampleItem" onChange={handleInputChange}/>
+        <Textarea className="h-24" id="input" placeholder="exampleItem (One item per line)" onChange={handleInputChange}/>
       </div>
     </div>
   )

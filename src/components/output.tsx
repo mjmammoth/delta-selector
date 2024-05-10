@@ -19,7 +19,7 @@ export function Output({items, selectedItems} : OutputProps) {
   const deselectedItems = items.filter(item => !selectedItems.includes(item));
 
   return (
-    <div className="flex flex-col space-y-4 mx-10">
+    <div className="flex flex-col space-y-4 m-4">
       <div className="flex flex-row">
         <div className="flex flex-col items-center space-y-2 mx-2">
           <div className="space-y-2">
